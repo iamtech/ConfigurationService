@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: config-server-client
+  profiles:
+    active: development      
+  cloud:
+    config:
+       server:
+        git:
+          uri: ${USERPROFILE}\\Desktop\\config-server-repo
+ 
+
+eureka:
+  client: 
+    serviceUrl:
+      defaultZone: http://localhost:8095/eureka/
+      
+server: 
+  port: 8094     
+  
+  
