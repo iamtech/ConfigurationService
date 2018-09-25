@@ -7,7 +7,7 @@ spring:
     config:
        server:
         git:
-          uri: ${USERPROFILE}\\Desktop\\config-server-repo
+          uri: file:///E:/workspace/config_file  # https://github.com/iamtech/ConfigurationService/tree/master/config_file # file:///E/workspace/ConfigurationService/config_file
  
 
 eureka:
